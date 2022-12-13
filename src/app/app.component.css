@@ -1,3 +1,8 @@
+.BigBox {
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+}
 h1 {
   text-transform: uppercase;
   color: #2c748d;
@@ -10,5 +15,5 @@ h1 {
 
 img {
   margin-left: 2rem;
-  width: 8rem;
+  width: 10rem;
 }

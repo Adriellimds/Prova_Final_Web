@@ -2,18 +2,18 @@
   <table class="Table">
     <thead>
       <tr class="tabletitle">
-        <td class="items">USERID</td>
-        <td class="items">ID</td>
-        <td class="items">TITLE</td>
-        <td class="items">COMPLETED</td>
+        <td class="itemID">USER ID</td>
+        <td class="itemID">ID</td>
+        <td class="itemsTITLE">TITLE</td>
+        <td class="itemsCOMP">COMPLETED</td>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let forToDo of ToDo ">
-        <td>{{forToDo.userid}}</td>
-        <td>{{forToDo.id}}</td>
-        <td>{{forToDo.title}}</td>
-        <td>{{forToDo.completed}}</td>
+        <td class="itemID">{{forToDo.userId}}</td>
+        <td class="itemID">{{forToDo.id}}</td>
+        <td class="itemsTITLE">{{forToDo.title}}</td>
+        <td class="itemsCOMP">{{forToDo.completed}}</td>
       </tr>
     </tbody>
   </table>

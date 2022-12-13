@@ -1,16 +1,17 @@
 .Table {
   font-size: 1rem;
-  width: 50rem;
+  width: auto;
   border-collapse: collapse;
   font-size: 1.2rem;
+  text-transform: capitalize;
 }
 .Table thead tr {
-  background-color: #009879;
+  background-color: #2c748d;
   color: #ffffff;
   text-align: left;
 }
 .Table tbody tr {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #55bdc1;
 }
 
 .Table tbody tr:nth-of-type(even) {
@@ -18,15 +19,27 @@
 }
 
 .Table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
+  border-bottom: 2px solid #2c748d;
 }
 
 .Table tbody tr.active-row {
   font-weight: bold;
-  color: #009879;
+  color: #2c748d;
 }
 
 .Boxtable h3 {
   text-align: right;
   text-transform: uppercase;
+}
+
+.itemID {
+  width: 5rem;
+  text-align: center;
+}
+.itemsTITLE {
+  width: auto;
+  text-align: left;
+}
+.itemsCOMP {
+  text-align: center;
 }

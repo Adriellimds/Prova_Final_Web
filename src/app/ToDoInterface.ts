@@ -1,5 +1,5 @@
 export interface ToDoInterface {
-  userid: number;
+  userId: number;
   id: number;
   title: string;
   completed: string;

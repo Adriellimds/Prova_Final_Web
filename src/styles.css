@@ -8,3 +8,12 @@ body {
   justify-content: center;
   justify-items: center;
 }
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+img {
+  margin-left: 2rem;
+  width: 10rem;
+}
