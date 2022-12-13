@@ -1,0 +1,14 @@
+h1 {
+  text-transform: uppercase;
+  color: #2c748d;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+img {
+  margin-left: 2rem;
+  width: 8rem;
+}

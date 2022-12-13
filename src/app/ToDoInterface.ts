@@ -1,6 +1,6 @@
 export interface ToDoInterface {
   userid: number;
   id: number;
-  tittle: string;
+  title: string;
   completed: string;
 }

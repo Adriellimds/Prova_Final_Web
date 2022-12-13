@@ -1,1 +1,20 @@
-<p>to-do-comp works!</p>
+<div class="Boxtable">
+  <table class="Table">
+    <thead>
+      <tr class="tabletitle">
+        <td class="items">USERID</td>
+        <td class="items">ID</td>
+        <td class="items">TITLE</td>
+        <td class="items">COMPLETED</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let forToDo of ToDo ">
+        <td>{{forToDo.userid}}</td>
+        <td>{{forToDo.id}}</td>
+        <td>{{forToDo.title}}</td>
+        <td>{{forToDo.completed}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
